@@ -1,0 +1,18 @@
+{
+  "name": "test-mcp",
+  "version": "1.0.0",
+  "description": "Simple MCP server for Vercel",
+  "type": "module",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "vercel build"
+  },
+  "dependencies": {
+    "mcp-handler": "latest",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  }
+}
