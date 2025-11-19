@@ -1,6 +1,12 @@
 {
+  "rewrites": [
+    {
+      "source": "/mcp",
+      "destination": "/src/mcp"
+    }
+  ],
   "functions": {
-    "mcp.js": {
+    "src/mcp.js": {
       "maxDuration": 10
     }
   }
