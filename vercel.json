@@ -2,11 +2,11 @@
   "rewrites": [
     {
       "source": "/mcp",
-      "destination": "/src/mcp"
+      "destination": "/api/mcp"
     }
   ],
   "functions": {
-    "src/mcp.js": {
+    "api/mcp.js": {
       "maxDuration": 10
     }
   }
